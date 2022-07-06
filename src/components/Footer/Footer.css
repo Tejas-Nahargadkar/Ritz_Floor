@@ -1,0 +1,88 @@
+.Footer-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5b5756;
+  color: white;
+}
+.Footer-Row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Footer-Map {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Footer-Map iframe {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+.Get-in-Touch {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+.Get-in-touch-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.Get-in-touch-row p {
+  width: 60%;
+}
+.Get-in-touch-row a {
+  text-decoration: none;
+  color: white;
+}
+.News-Letter {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.News-Letter input {
+  width: 80%;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.News-Letter::placeholder {
+  color: white;
+}
+.News-Letter a {
+  width: 30%;
+  padding: 0.5rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e26739;
+  color: white;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+.Footer-Social-media {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+}
+.Footer-Social-media svg {
+  width: 2em;
+  height: 2em;
+  color: white;
+}
